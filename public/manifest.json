@@ -1,0 +1,19 @@
+{
+  "name": "Klika.Live",
+  "short_name": "Klika",
+  "description": "AI-first Social Commerce — Live Shopping & Auctions",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#e8364e",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/klika-logo.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["shopping", "social", "entertainment"]
+}
