@@ -1,0 +1,9 @@
+#!/bin/bash
+# Auto-push to both GitHub accounts after every commit
+echo "🚀 Auto-pushing to both GitHub accounts..."
+
+git push origin1 main 2>&1 &
+git push origin2 main 2>&1 &
+wait
+
+echo "✅ Pushed to both remotes: gozustrike-lab + emailkiklaoficial"
